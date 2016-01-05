@@ -6,6 +6,9 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('basic-info');
+  this.route('timeline');
+  this.route('song-selections');
 });
 
 export default Router;
